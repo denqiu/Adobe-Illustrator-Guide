@@ -1,0 +1,251 @@
+@charset "utf-8";
+/*Body*/
+body {
+	font-family: Verdana;
+	font-weight: bold;
+	background-color: #090249;
+}
+/*Container*/
+#container {
+	position: relative;
+	width: 1250px;
+	margin: 0 auto;
+	background-color: #0280D0;
+}
+/*Header*/
+h2 {
+	color: #000000;
+	padding: 10px 15px 10px 0px;
+}
+.borderLine {
+	border-bottom: solid #090249;
+}
+/*Navigation*/
+ul {
+	list-style: none;
+}
+div a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+div a:hover {
+	color: #090249;
+}
+li:hover a {
+	color: #090249;
+	text-decoration: underline;
+}
+.top {
+	padding-left: 1150px;
+	padding-bottom: 8px;
+}
+/*fonts*/
+.fontSize14 {
+	font-size: 14px;
+}
+/*Welcome*/
+#welcome {
+	padding: 0px 230px 0px 230px;
+}
+/*What*/
+#what p {
+	padding: 0px 150px;
+}
+/*Tools*/
+#tools ul {
+	list-style: initial;
+}
+#tools p:first-child {
+	margin-right: 200px;
+}
+#tools ul {
+	padding: 0px 200px 0px 340px;
+}
+#tools ul li {
+	text-align: left;
+}
+/*Toolbars*/
+#toolbars ul:last-of-type {
+	list-style: circle;
+}
+#toolbars ul:last-of-type li:nth-child(2), 
+#toolbars ul:last-of-type li:last-child {
+	list-style: inside;
+	margin-left: 20px;
+}
+/*CoverTools*/
+#coverTools ul {
+	list-style: none;
+	padding-left: 310px;
+}
+#coverTools ul li {
+	text-align: left;
+}
+#coverTools p {
+	position: relative;
+	left: 120px;
+	padding: 0px 240px;
+}
+#coverTools p strong {
+	color: #0280D0;
+	background: #090249	
+}
+#penArrow {
+	position: absolute;
+	transform: scale(2, 2);
+	top: 1310px;
+	right: 260px;
+}
+#penArrow:hover {
+	border: solid thick #090249;
+}
+/*aiToolbar*/
+#aiToolbar {
+	position: absolute;
+	left: 300px;
+}
+#aiToolbar:hover {
+	border: solid thick #0280D0;
+}
+/*aiAllTools*/
+#aiAllTools {
+	position: absolute;
+	left: 500px;
+	top: 570px;
+}
+#aiAllTools:hover {
+	border: solid thick #ec008c;
+	outline: solid thick #0280D0;
+}
+/*aiPen*/
+#aiPen {
+	position: absolute;
+	transform: scale(1.5, 1.5);
+	left: 475px;
+	top: 700px;
+}
+#aiPen:hover {
+	border: solid thick #CF3838;
+	outline: solid thick #0280D0;
+}
+/*aiRect*/
+#aiRect {
+	position: absolute;
+	transform: scale(1.5, 1.5);
+	left: 600px;
+	top: 700px;
+}
+#aiRect:hover {
+	border: solid thick #18CC18;
+	outline: solid thick #0280D0;
+}
+/*aiEye*/
+#aiEye {
+	position: absolute;
+	transform: scale(1.5, 1.5);
+	left: 725px;
+	top: 700px;
+}
+#aiEye:hover {
+	border: solid thick #DEF82A;
+	outline: solid thick #0280D0;
+}
+/*EditToolbar*/
+#editTool {
+	position: relative;
+	top: 4px;
+}
+#editTool:hover {
+	outline: solid #ec008c;
+}
+#editText {
+	color: #EC008C; 
+	text-decoration: none;
+}
+#editText:hover {
+	text-decoration: underline;
+}
+/*FlyoutMenu*/
+#flyOut {
+	position: relative;
+	top: 5px;
+}
+#flyOut:hover {
+	outline: solid #FDC689;
+}
+#flyText {
+	color: #FDC689;
+	text-decoration: none;
+}
+#flyText:hover {
+	text-decoration: underline;
+}
+/*Tools*/
+.imgTools {
+	position: relative;
+	top: 5px;
+	right: 7px;
+}
+.brief {
+	position: relative;
+	left: 40px;
+}
+/*Pen Tool*/
+#pen:hover {
+	outline: solid #CF3838;
+}
+#penText {
+	color: #CF3838;
+	text-decoration: none;
+}
+#penText:hover {
+	text-decoration: underline;
+}
+/*Rectangle Tool*/
+#coverRect ul {
+	list-style: initial;
+	padding: 0px 50px;
+}
+#rect:hover {
+	outline: solid #18CC18;
+}
+#rectText {
+	color: #18CC18;
+	text-decoration: none;
+}
+#rectText:hover {
+	text-decoration: underline;
+}
+/*Eyedropper Tool*/
+#eye:hover {
+	outline: solid #DEF82A;
+}
+#eyeText {
+	color: #DEF82A;
+	text-decoration: none;
+}
+#eyeText:hover {
+	text-decoration: underline;
+}
+/*exercise*/
+#exercise p {
+	padding: 0px 220px;
+}
+#exercise p a {
+	color: #CF3838;
+}
+#exercise p a:hover {
+	text-decoration: underline;
+}
+#exercise p a#download {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#exercise p a#download:hover {
+	color: #CF3838;
+	text-decoration: underline;
+}
+.exerciseHover:hover {
+	border: solid thick #CF3838;
+	outline: solid thick #090249;
+}
